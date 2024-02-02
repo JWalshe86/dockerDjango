@@ -7,7 +7,7 @@ import socket
 # --------------------------------------------------------------
 # Project imports
 # --------------------------------------------------------------
-from .settings import (
+from .common import (
     BASE_DIR,
     SECRET_KEY,
     ALLOWED_HOSTS,

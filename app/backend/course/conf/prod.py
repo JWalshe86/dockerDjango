@@ -3,14 +3,10 @@
 # --------------------------------------------------------------
 import os
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "course.conf.prod")
-
-application = get_wsgi_application()
-
 # --------------------------------------------------------------
 # Project imports
 # --------------------------------------------------------------
-from .settings import (
+from .common import (
     BASE_DIR,
     SECRET_KEY,
     ALLOWED_HOSTS,
